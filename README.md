@@ -77,6 +77,7 @@ from huggingface_hub import hf_hub_download
 from uni2ts.eval_util.plot import plot_single
 from uni2ts.model.moirai import MoiraiForecast, MoiraiModule
 from uni2ts.model.moirai_moe import MoiraiMoEForecast, MoiraiMoEModule
+from uni2ts.model.moirai2 import Moirai2Forecast, Moirai2Module
 
 MODEL = "moirai2"  # model name: choose from {'moirai', 'moirai-moe', 'moirai2'}
 SIZE = "small"  # model size: choose from {'small', 'base', 'large'}
